@@ -1,4 +1,4 @@
-// server.js
+// index.js
 
 const express = require("express");
 const sql = require("mssql/msnodesqlv8");
