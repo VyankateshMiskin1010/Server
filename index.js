@@ -5,7 +5,8 @@ const sql = require("mssql/msnodesqlv8");
 const cors = require("cors");
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: "*" }));
+
 const config = {
   server: "TRUELEAF\\SQLEXPRESS",
   database: "portfolio",
